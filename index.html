@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Final Lab Task 3: Data Manipulation</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      padding: 30px;
+    }
+    .glitch {
+      font-size: 36px;
+      color: #00ffff;
+      animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red, -2px 0 blue; }
+      20% { text-shadow: -2px -2px red, 2px 2px blue; }
+      40% { text-shadow: 2px 2px red, -2px -2px blue; }
+      60% { text-shadow: -2px 2px red, 2px -2px blue; }
+      80% { text-shadow: 2px -2px red, -2px 2px blue; }
+      100% { text-shadow: -2px 0 red, 2px 0 blue; }
+    }
+    h1, h2 {
+      color: #00ffff;
+    }
+    h3 {
+      color: #00ffff;
+      margin-top: 30px;
+    }
+    ul {
+      max-width: 700px;
+      margin: 0 auto 50px;
+      text-align: left;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    img {
+      margin: 20px 0;
+      border: 2px solid #00ff00;
+      width: 700px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glitch">Final Lab Task 3: Data Manipulation</h1>
+
+  <div>
+    <h2>Table Creation Details</h2>
+    <ul>
+      <li><strong>id</strong>: unique integer, auto-increment, primary key</li>
+      <li><strong>product_name</strong>: STRING (VARCHAR) max length 100, NOT NULL</li>
+      <li><strong>price</strong>: decimal</li>
+      <li>Check constraint: price &gt; 0</li>
+      <li>Insert valid products (own examples)</li>
+      <li>Modify product_name max length to 120 characters</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Product Records Inserted</h2>
+    <ul>
+      <li>Laptop 999.99</li>
+      <li>Headphones -49.99</li>
+      <li>Smartphone 599.99</li>
+      <li>Tablet 299.99</li>
+      <li>Monitor -149.99</li>
+      <li>Keyboard 19.99</li>
+      <li>Mouse 14.99</li>
+      <li>Desk Lamp 24.99</li>
+      <li>External Hard Drive -79.99</li>
+      <li>Speakers 9.99</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Queries</h2>
+    <h3>Product Query</h3>
+    <img src="Image/Product Q.PNG" alt="Product Query" width="500" />
+
+    <h3>Adding Constraint</h3>
+    <img src="Image/Constraint.PNG" alt="Adding Constraint" width="500" />
+
+    <h3>Insert Values</h3>
+    <img src="Image/Values.PNG" alt="Insert Values" width="500" />
+
+    <h3>Altering Table - Max 120 Characters</h3>
+    <img src="Image/Alter.PNG" alt="Altering Table" width="500" />
+  </div>
+
+  <div>
+    <h2>Table Structure</h2>
+    <img src="Image/Table.PNG" alt="Table Structure" width="500" />
+  </div>
+
+  <div>
+    <h2>Relational Schema</h2>
+    <img src="Image/Erd 3.PNG" alt="Relational Schema" width="700" />
+  </div>
+</body>
+      </html>
