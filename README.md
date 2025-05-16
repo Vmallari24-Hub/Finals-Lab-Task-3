@@ -22,20 +22,20 @@
 
 # Queries
  1. Product Query
-<img src="Image/.PNG" alt="Alt Text" Width="500">
+<img src="Image/Product Q.PNG" alt="Alt Text" Width="500">
 
 - Adding Constraint
-<img src="Image/.PNG" alt="Alt Text" Width="500">
+<img src="Image/Constraint.PNG" alt="Alt Text" Width="500">
 
  2. Insert Values
-<img src="Image/.PNG" alt="Alt Text" Width="500">
+<img src="Image/Values.PNG" alt="Alt Text" Width="500">
 
  3. Altering Table, Maximum of 120 Characters
-<img src="Image/.PNG" alt="Alt Text" Width="500">
+<img src="Image/Alter.PNG" alt="Alt Text" Width="500">
 
 # Table Structure
-<img src="Image/.PNG" alt="Alt Text" Width="500">
+<img src="Image/Table.PNG" alt="Alt Text" Width="500">
 
 # RELATIONAL SCHEMA
-<img src="Image/.PNG" alt="Alt Text" Width="700">
+<img src="Image/Erd 3.PNG" alt="Alt Text" Width="700">
 
